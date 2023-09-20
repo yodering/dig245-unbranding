@@ -12,7 +12,6 @@ var topText = document.getElementById("top-text");
 var acorn = document.getElementById("acorn");
 var currentImage = 1;
 var totalImages = 6;
-    
     acorn.addEventListener("click", function() {
         currentImage++;
         if (currentImage > totalImages) {
@@ -21,13 +20,10 @@ var totalImages = 6;
         acorn.src = "assets/acorn" + currentImage + ".png";    
     });
 
-        
-
 const bottomText = document.getElementById("bottom-text");
 const lettersToChange = "llege";
 const replacementText = "rrupt";
-let index = 0;
-        
+let index = 0; 
     document.getElementById("acorn").addEventListener("click", function () {
         if (index < lettersToChange.length) {
             const current = lettersToChange[index];
