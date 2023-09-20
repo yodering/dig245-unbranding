@@ -2,7 +2,7 @@
 /* css */
 
 @font-face {
-    font-family: 'serifa'; /* You can choose any name you like */
+    font-family: 'serifa'; 
     src: url('SerifaStdBold.ttf') format('truetype');
   } 
   
@@ -57,8 +57,6 @@
     top: 495px;
     left: 240px;
 }
-
-
 
 h2 {
     font-family:Arial;

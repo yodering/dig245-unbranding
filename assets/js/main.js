@@ -51,3 +51,4 @@ console.log("With limited competition in the standardized testing market, some a
 console.log("Some links for reference: https://highschool.latimes.com/fountain-valley-high-school/opinion-the-college-board-is-a-corrupt-monopolistic-money-scheme/")
 console.log("https://millermedianow.org/8317/opinions/headline-how-college-board-makes-millions-off-of-students-each-year/")
 console.log("https://www.uchscommander.com/opinions/2021/06/07/corrupt-college-board-creates-monopoly/")
+console.log("Figma design: https://www.figma.com/file/3py9cStknQ3p0wfvzMSc6H/corrupt-board?type=design&node-id=0%3A1&mode=design&t=0BWyt10gmZ6nJXIS-1")
