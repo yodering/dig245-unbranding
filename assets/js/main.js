@@ -42,4 +42,6 @@ console.log("College Board has faced criticism for its percieved corruption and 
 console.log("Such criticism concerns the high costs of its services, lack of transparency in scoring and question selection, and heavily reliance on its standardized tests in college.")
 console.log("AP, or Advanced Placement exams cost on average $100, where the SAT costs around $50. To those that are unable to afford these steep costs, there is potential for them to miss out on college credit, and even a reduced chance in college admissions, when coursework is considered heavily at top universities.")
 console.log("With limited competition in the standardized testing market, some argue that College Board wields excessive power and control, which can hinder fairness and equity in education.")
-
+console.log("Some links for reference: https://highschool.latimes.com/fountain-valley-high-school/opinion-the-college-board-is-a-corrupt-monopolistic-money-scheme/")
+console.log("https://millermedianow.org/8317/opinions/headline-how-college-board-makes-millions-off-of-students-each-year/")
+console.log("https://www.uchscommander.com/opinions/2021/06/07/corrupt-college-board-creates-monopoly/")
