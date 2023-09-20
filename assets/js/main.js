@@ -9,6 +9,16 @@ var topText = document.getElementById("top-text");
             topText.textContent = "Advanced Placement";
         });
 
+        var acorn = document.getElementById("acorn");
+        var h2 = document.getElementById("click")
+        acorn.addEventListener("mouseover", function() {
+            h2.classList.toggle('infade')
+        });
+        acorn.addEventListener("mouseout", function() {
+            h2.classList.toggle('outfade')
+        });
+
+
 var acorn = document.getElementById("acorn");
 var currentImage = 1;
 var totalImages = 6;
