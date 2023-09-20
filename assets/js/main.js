@@ -1,7 +1,7 @@
 
 /* javascript */
 
-var topText = document.getElementById("hoverText");
+var topText = document.getElementById("hover-text");
         topText.addEventListener("mouseover", function() {
             topText.textContent = "Advanced Profit";
         });
@@ -23,17 +23,20 @@ var totalImages = 6;
 
         
 
-const bottomText = document.getElementById("bottomText");
+const bottomText = document.getElementById("bottom-text");
 const lettersToChange = "llege";
 const replacementText = "rrupt";
-let currentIndex = 0;
+let index = 0;
         
     document.getElementById("acorn").addEventListener("click", function () {
-        if (currentIndex < lettersToChange.length) {
-            const currentLetter = lettersToChange[currentIndex];
-            const corruptText = bottomText.textContent.replace(currentLetter, replacementText[currentIndex]);
+        if (index < lettersToChange.length) {
+            const current = lettersToChange[index];
+            const corruptText = bottomText.textContent.replace(current, replacementText[index]);
             bottomText.textContent = corruptText;
-            currentIndex++;
+            index++;
         }
     });
+
+
+console.log("CollegeBoard has faced criticism for its percieved corruption and monopoly like practices. Such criticism concerns the high costs of its services, lack of transparency in scoring and question selection, and heavily reliance on its standardized tests in college")
 
