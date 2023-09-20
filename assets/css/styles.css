@@ -35,6 +35,10 @@
     left: 85px;
 }
 
+.top-text:hover {
+    cursor:not-allowed;
+}
+
 .bottom-text {
     font-family: 'serifa', sans-serif;
     color: white;
