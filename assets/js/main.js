@@ -15,7 +15,7 @@ var h2 = document.getElementById("click")
         h2.classList.toggle('infade')
     });
     acorn.addEventListener("mouseout", function() {
-        h2.classList.toggle('outfade')
+        h2.classList.toggle('infade')
     });
 
 
