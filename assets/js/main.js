@@ -1,7 +1,7 @@
 
 /* javascript */
 
-var topText = document.getElementById("hover-text");
+var topText = document.getElementById("top-text");
         topText.addEventListener("mouseover", function() {
             topText.textContent = "Advanced Profit";
         });
