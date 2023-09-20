@@ -2,21 +2,21 @@
 /* javascript */
 
 var topText = document.getElementById("top-text");
-        topText.addEventListener("mouseover", function() {
-            topText.textContent = "Advanced Profit";
+    topText.addEventListener("mouseover", function() {
+        topText.textContent = "Advanced Profit";
         });
-        topText.addEventListener("mouseout", function() {
-            topText.textContent = "Advanced Placement";
+    topText.addEventListener("mouseout", function() {
+        topText.textContent = "Advanced Placement";
         });
 
-        var acorn = document.getElementById("acorn");
-        var h2 = document.getElementById("click")
-        acorn.addEventListener("mouseover", function() {
-            h2.classList.toggle('infade')
-        });
-        acorn.addEventListener("mouseout", function() {
-            h2.classList.toggle('outfade')
-        });
+var acorn = document.getElementById("acorn");
+var h2 = document.getElementById("click")
+    acorn.addEventListener("mouseover", function() {
+        h2.classList.toggle('infade')
+    });
+    acorn.addEventListener("mouseout", function() {
+        h2.classList.toggle('outfade')
+    });
 
 
 var acorn = document.getElementById("acorn");
